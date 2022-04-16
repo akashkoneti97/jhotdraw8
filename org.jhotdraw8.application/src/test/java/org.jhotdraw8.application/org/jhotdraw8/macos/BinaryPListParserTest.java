@@ -129,8 +129,7 @@ public class BinaryPListParserTest {
     private static void normalizeWhitespace(final @NonNull Node node, final boolean stripComments) {
         final NodeList childNodes = node.getChildNodes();
         final List<Node> list = new ArrayList<>();
-        // TODO: Remove too many control variables in the 'for' statement, FIXME: Modify the statement to suit for loop.
-        for (int i = 0, n = childNodes.getLength(); i < n; i++) {
+        for (int i = 0; i < childNodes.getLength(); i++) {
             list.add(childNodes.item(i));
         }
         boolean deleteEmptyLine = false;
