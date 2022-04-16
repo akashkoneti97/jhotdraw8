@@ -136,8 +136,6 @@ public class HitTestExampleMain extends Application {
     }
 
     private void updateView() {
-    	// TODO: Remove the unused local variable, FIXME: Remove prng from updateView
-        ThreadLocalRandom prng = ThreadLocalRandom.current();
 
         Text text = new Text();
         text.setText(ch);
