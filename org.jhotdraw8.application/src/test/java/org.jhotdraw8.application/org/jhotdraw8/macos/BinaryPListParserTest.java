@@ -36,8 +36,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class BinaryPListParserTest {
     private static final Properties INDENT_XML_PROPERTIES = new Properties();
     
-    // TODO: Each class should declare at least one constructor, FIXME: Add a constructor to BinaryPListParserTest
-
+    public BinaryPListParserTest() {
+    	
+    }
+    
     static {
         INDENT_XML_PROPERTIES.put(OutputKeys.INDENT, "yes");
         INDENT_XML_PROPERTIES.put(OutputKeys.ENCODING, "UTF-8");
