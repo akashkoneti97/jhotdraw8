@@ -20,7 +20,8 @@ public class SimpleObservable implements ObservableMixin {
 
     public SimpleObservable() {
     }
-// TODO: The method is missing an @Override annotation, FIXME: Add @Override to getInvalidationListeners()
+    
+    @Override
     public @NonNull CopyOnWriteArrayList<InvalidationListener> getInvalidationListeners() {
         return invalidationListeners;
     }
