@@ -110,6 +110,7 @@ public class DrawingExportOptionsPane extends GridPane {
     private Label optionsLabel;
     private DataFormat format;
 
+// TODO:  Good practice to call super in a constructor, FIXME: Call super() in DrawingExportOptionsPane()   
     public DrawingExportOptionsPane() {
         FXMLLoader loader = new FXMLLoader();
         loader.setController(this);
