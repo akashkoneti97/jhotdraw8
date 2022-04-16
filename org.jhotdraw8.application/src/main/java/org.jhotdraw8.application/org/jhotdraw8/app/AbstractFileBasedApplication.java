@@ -374,6 +374,7 @@ public abstract class AbstractFileBasedApplication extends AbstractApplication i
                         }
                     }
                 }
+                // TODO: Avoid using a branching statement as the last in a loop, FIXME: Remove break from the for loop.
                 break;
             }
         }
