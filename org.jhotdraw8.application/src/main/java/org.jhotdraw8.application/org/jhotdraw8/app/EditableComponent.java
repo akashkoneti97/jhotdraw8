@@ -6,7 +6,7 @@ package org.jhotdraw8.app;
 
 import javafx.beans.property.ReadOnlyBooleanProperty;
 import org.jhotdraw8.annotation.Nullable;
-
+// TODO: Remove long comment, FIXME: Shorten comment size
 /**
  * EditableComponent defines an API for objects which can perform clipboard operations
  * and have a selection.
