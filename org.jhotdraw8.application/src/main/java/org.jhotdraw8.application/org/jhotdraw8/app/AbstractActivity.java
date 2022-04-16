@@ -49,7 +49,7 @@ public abstract class AbstractActivity extends AbstractDisableable implements Ac
     private final @NonNull IntegerProperty disambiguation = new SimpleIntegerProperty(this, DISAMBIGUATION_PROPERTY);
     private final @NonNull ReadOnlyMapProperty<String, Action> actions = new ReadOnlyMapWrapper<String, Action>(FXCollections.observableMap(new LinkedHashMap<>())).getReadOnlyProperty();
 
-
+// TODO: Remove unnecessary constructors, FIXME: Remove AbstractActivity() constructor
     public AbstractActivity() {
     }
 
