@@ -26,8 +26,6 @@ public class ClearRecentFilesMenuAction extends AbstractApplicationAction {
 
     public static final String ID = "file.clearRecentFiles";
 
-// TODO: Remove unused private field, FIXME: Remove applicationListener
-    private PropertyChangeListener applicationListener;
 
     /**
      * Creates a new instance.
