@@ -12,6 +12,7 @@ import org.jhotdraw8.annotation.Nullable;
 
 import java.util.concurrent.atomic.AtomicReference;
 
+// TODO: A class which only has private constructors should be final, FIXME: make class FXConcurrentUtil final
 class FXConcurrentUtil {
     /**
      * This object is used to coalesce multiple updates.
